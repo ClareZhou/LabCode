@@ -1,0 +1,1 @@
+g++ main.cpp serial.cpp timeout.cpp uwblps.cpp car_zyl.cpp -o test -lzmq -lcurses -lpthread -std=c++11
