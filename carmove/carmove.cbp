@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="carmove"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/stone/code/clionProject/carmove"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/stone/code/clionProject/carmove"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/stone/code/clionProject/carmove"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testuwb">
+				<Option output="/home/stone/code/clionProject/carmove/bin/testuwb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 testuwb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testuwb/fast">
+				<Option output="/home/stone/code/clionProject/carmove/bin/testuwb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 testuwb/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run2">
+				<Option output="/home/stone/code/clionProject/carmove/bin/run2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 run2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run2/fast">
+				<Option output="/home/stone/code/clionProject/carmove/bin/run2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 run2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboardcontrol">
+				<Option output="/home/stone/code/clionProject/carmove/bin/keyboardcontrol" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 keyboardcontrol"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboardcontrol/fast">
+				<Option output="/home/stone/code/clionProject/carmove/bin/keyboardcontrol" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 keyboardcontrol/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="carmove">
+				<Option output="/home/stone/code/clionProject/carmove/bin/carmove" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 carmove"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="carmove/fast">
+				<Option output="/home/stone/code/clionProject/carmove/bin/carmove" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 carmove/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sub">
+				<Option output="/home/stone/code/clionProject/carmove/bin/sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 sub"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sub/fast">
+				<Option output="/home/stone/code/clionProject/carmove/bin/sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 sub/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pub">
+				<Option output="/home/stone/code/clionProject/carmove/bin/pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 pub"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pub/fast">
+				<Option output="/home/stone/code/clionProject/carmove/bin/pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/stone/code/clionProject/carmove/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/local/protobuf/include/"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 pub/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/stone/code/clionProject/carmove/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/stone/code/clionProject/carmove/include/car_zyl.h">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/include/inf_typedef.h">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/include/serial.h">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/include/timeout.h">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/include/uwblps.h">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/src/car_zyl.cpp">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/src/serial.cpp">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/src/timeout.cpp">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/src/uwblps.cpp">
+			<Option target="testuwb"/>
+			<Option target="run2"/>
+			<Option target="keyboardcontrol"/>
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/test/carsub.cpp">
+			<Option target="sub"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/test/keyboardcontrol.cpp">
+			<Option target="keyboardcontrol"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/test/main.cpp">
+			<Option target="carmove"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/test/mypub.cpp">
+			<Option target="pub"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/test/run2.cpp">
+			<Option target="run2"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/test/testuwb.cpp">
+			<Option target="testuwb"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/stone/code/clionProject/carmove/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

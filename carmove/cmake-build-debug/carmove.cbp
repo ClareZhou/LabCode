@@ -38,19 +38,19 @@
 				</MakeCommands>
 			</Target>
 			<Target title="carmove">
-				<Option output="/home/stone/code/clionProject/carmove/cmake-build-debug/carmove" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stone/code/clionProject/carmove/cmake-build-debug"/>
+				<Option output="/home/stone/code/clionProject/carmove/bin/carmove" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/local/include"/>
 					<Add directory="."/>
 					<Add directory="/usr/local/protobuf/include/"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
@@ -63,19 +63,19 @@
 				</MakeCommands>
 			</Target>
 			<Target title="carmove/fast">
-				<Option output="/home/stone/code/clionProject/carmove/cmake-build-debug/carmove" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stone/code/clionProject/carmove/cmake-build-debug"/>
+				<Option output="/home/stone/code/clionProject/carmove/bin/carmove" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stone/code/clionProject/carmove/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/local/include"/>
 					<Add directory="."/>
 					<Add directory="/usr/local/protobuf/include/"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>

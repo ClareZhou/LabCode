@@ -1,0 +1,10 @@
+/home/stone/code/clionProject/carmove/CMakeFiles/rebuild_cache.dir
+/home/stone/code/clionProject/carmove/CMakeFiles/edit_cache.dir
+/home/stone/code/clionProject/carmove/test/CMakeFiles/rebuild_cache.dir
+/home/stone/code/clionProject/carmove/test/CMakeFiles/testuwb.dir
+/home/stone/code/clionProject/carmove/test/CMakeFiles/run2.dir
+/home/stone/code/clionProject/carmove/test/CMakeFiles/keyboardcontrol.dir
+/home/stone/code/clionProject/carmove/test/CMakeFiles/edit_cache.dir
+/home/stone/code/clionProject/carmove/test/CMakeFiles/carmove.dir
+/home/stone/code/clionProject/carmove/test/CMakeFiles/sub.dir
+/home/stone/code/clionProject/carmove/test/CMakeFiles/pub.dir

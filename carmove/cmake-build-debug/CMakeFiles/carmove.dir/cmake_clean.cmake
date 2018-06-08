@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/carmove.dir/uwblps.cpp.o"
   "CMakeFiles/carmove.dir/serial.cpp.o"
   "CMakeFiles/carmove.dir/car_zyl.cpp.o"
-  "carmove.pdb"
-  "carmove"
+  "../bin/carmove.pdb"
+  "../bin/carmove"
 )
 
 # Per-language clean rules from dependency scanning.

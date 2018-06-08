@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g -pthread  -g  -pthread  CMakeFiles/sub.dir/carsub.cpp.o  -o ../bin/sub  -L/home/stone/code/clionProject/carmove/lib  -L/usr/local/lib -Wl,-rpath,/home/stone/code/clionProject/carmove/lib:/usr/local/lib -lzmq -lpthread 

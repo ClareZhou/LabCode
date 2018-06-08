@@ -8,6 +8,9 @@ CMakeFiles/carmove.dir/car_zyl.cpp.o
  /home/stone/code/clionProject/carmove/serial.h
  /home/stone/code/clionProject/carmove/timeout.h
  /home/stone/code/clionProject/carmove/uwblps.h
+ /usr/local/include/zhelpers.hpp
+ /usr/local/include/zmq.h
+ /usr/local/include/zmq.hpp
 CMakeFiles/carmove.dir/main.cpp.o
  /home/stone/code/clionProject/carmove/car_zyl.h
  /home/stone/code/clionProject/carmove/inf_typedef.h
@@ -15,6 +18,9 @@ CMakeFiles/carmove.dir/main.cpp.o
  /home/stone/code/clionProject/carmove/serial.h
  /home/stone/code/clionProject/carmove/timeout.h
  /home/stone/code/clionProject/carmove/uwblps.h
+ /usr/local/include/zhelpers.hpp
+ /usr/local/include/zmq.h
+ /usr/local/include/zmq.hpp
 CMakeFiles/carmove.dir/serial.cpp.o
  /home/stone/code/clionProject/carmove/serial.cpp
  /home/stone/code/clionProject/carmove/serial.h
